@@ -30,6 +30,7 @@ background-color: background-color: #2F303A*/
     --acent-color: #2196F3;
     --background-color: #ffffff;
     --button-color: #F5F4FA;
+    --background-icons: #F5F4FA;
 }
 body
 {
@@ -74,7 +75,9 @@ html {
     .nav-link:focus,
     .nav-link:hover,
     .nav-contact:focus,
-    .nav-contact:hover
+    .nav-contact:hover,
+    .nav-icons:hover,
+    .nav-icons:focus
     {
         color: var(--acent-color)
     }
@@ -87,7 +90,7 @@ html {
         line-height: 1.1;
         letter-spacing: 0.02em;
     }
-    .nav-contact
+    .nav-contact 
     {
         color: var(--primery-text-color);
         font-style: normal;
@@ -95,6 +98,13 @@ html {
         font-size: 14px;
         line-height: 1.1;
         letter-spacing: 0.02em;
+        
+        display: flex;
+        align-items: center;
+    }
+    .nav-icons {
+        margin-right: 10px;
+        fill: currentColor;
     }
     .header-nav{
         margin-bottom: 0;
@@ -215,6 +225,18 @@ html {
     }
     .features-item{
         width: 270px;
+    }
+    .featurs-icons {
+        background-color: var(--background-icons);
+
+        width: 270px;
+        height: 120px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        margin-bottom: 30px;
     }
     /* Секція чим займаємось */
     .section-title
