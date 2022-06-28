@@ -3,7 +3,7 @@ text-color: color: #757575
 secondary-color: color: #ffffff
 link-color: color: rgba(255, 255, 255, 0.6)
 secondary-link-color: color: #2196F3
-background-color: background-color: #2F303A*/
+background-color: background-color: #2F303A */
 
 /* WebStudio */
 .container
@@ -77,7 +77,9 @@ html {
     .nav-contact:focus,
     .nav-contact:hover,
     .nav-icons:hover,
-    .nav-icons:focus
+    .nav-icons:focus,
+    .footer-contact:hover,
+    .footer-contact:focus
     {
         color: var(--acent-color)
     }
@@ -131,7 +133,6 @@ html {
     .contact-list li+li {
         margin-left: 50px;
     }
-
     /* Секція герой */
     .hero-section
     {
@@ -297,7 +298,7 @@ html {
         margin: 0;
         margin-bottom: 10px;
     }
-    .position-employee
+    .work
     {
         color: var(--primery-text-color);
         font-style: normal;
@@ -307,6 +308,15 @@ html {
         text-align: center;
         letter-spacing: 0.03em;
         margin: 0;
+    }
+    .contact-icons{
+        fill: #AFB1B8;
+        display: flex;
+        
+        padding-top: 28px;
+        padding-bottom: 30px;
+        padding-left: 22px;
+        padding-right: 22px;
     }
     /* footer */
 
@@ -324,6 +334,10 @@ html {
     .footer
     {
         background-color: #2F303A;
+    }
+    .footer-container {
+        padding-top: 60px;
+        padding-bottom: 60px;
     }
     .footer-contact
     {
