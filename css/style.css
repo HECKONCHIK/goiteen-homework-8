@@ -267,6 +267,7 @@ html {
     }
     .team-link{
         width: 270px;
+        height: 428px;
         box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
         border-radius: 0px 0px 4px 4px;
     }
@@ -327,6 +328,7 @@ html {
     }
     .social-link:hover,
     .social-link:focus {
+        fill: var(--background-color);
         background-color: var(--acent-color)
     }
     .social-link svg:hover {
@@ -401,7 +403,7 @@ html {
     }
     .footer-container {
         padding-top: 60px;
-        padding-bottom: 60px;
+        /* padding-bottom: 60px; */
     }
     .footer-contact
     {
@@ -417,6 +419,9 @@ html {
     }
     .footer-list-item:not(:last-child){
         margin-bottom: 9px;
+    }
+    .join-networks {
+        color: #ffffff;
     }
 /* Portfolio */
 
